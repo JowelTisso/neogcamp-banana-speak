@@ -57,10 +57,12 @@ h1 {
 }
 
 #info {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
   display: block;
   color: var(--primaryColor-text);
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 90vw;
+  margin: auto;
 }
 
 #outputText {
